@@ -1,0 +1,95 @@
+
+1.0: PROJECT DESCRIPTION.
+
+“BOSP” is an E-commerce application that customers can purchase soup products for HanWoo Corporation.
+This is a company specific website/mobile application. Clients can do a several things through this website.
+
+1) Create accounts
+2) Search for products
+3) Buy products
+4) View past purchases
+
+BOSP is a tangible app that clients can access to buy products online, instead of visiting the store itself.
+Customers can select products and update the quantities of each product. This app has integrated clients’ banks
+to allow for online purchasing. Also, during purchasing, shipping cost is affected depending on client’s address,
+and after purchasing, the company’s inventory is affected. Lastly, depending on the client’s address, the shipping
+time gets setup, where the app would pass down the summary of the order to the shipping portion of the company.
+Then the shipping part of the company will send out products to the client.
+
+1.1: KEY REQUIREMENTS.
+
+1.1.0 Login/New Account
+BOSP presents a menu of options to the end user; Login, New Account or Continue as Guest
+
+1.1.1 New Account
+BOSP allows tester to input name, phone number, address, and email address
+
+1.1.2 Account Information confirmed
+BOSP shows account information for tester to confirm.
+
+1.1.3 Account confirmation
+BOSP prompts “yes” or “no” for test-taker to input. (if “no,” test-taker re-writes the account information)
+
+1.1.4 Credit card input
+BOSP allows tester to input credit card information.
+
+1.1.5 Credit card confirmed
+BOSP credit card confirms the information.
+
+1.1.6 Create Account
+BOSP presents a menu of options to the end user; create account.
+
+1.1.7 Login&Password
+BOSP allows tester to input login and password.
+
+1.1.8 Login&Password confirm
+BOSP prompts confirmation that the tester have logged in.
+
+1.1.9 Write & Save Account information
+BOSP writes account information to a text file, and saves the information.
+
+1.2.0 Login&Password confirm 2
+BOSP retrieves saved account information, when a client logs in.
+
+1.2.1 Products / Shopping Cart
+BOSP presents a menu of options to the end user; 1. Products 2. Shopping cart
+
+1.2.2 Products
+BOSP presents a menu of options to the end user; 1. Gom Soup 2. Gom Tang Soup 3. Bulgo Soup 4. Spicy Soup
+
+1.2.3 Selected Products
+BOSP presents selected products to the end user.
+
+1.2.4 Write, Save & Read Selected Products
+BOSP writes selected products to a dat file and saves the information to client order file.
+
+1.2.5 Calculating Total Cost
+BOSP calculates and presents the total price of selected products.
+
+1.2.6 Customer Credit Card
+BOSP prompts credit card information, and confirms with customer.
+
+1.2.7 Customer Purchase Options
+BOSP presents a menu of options to the user; 1. Purchase 2. Product
+
+1.2.8 Customer Purchase
+BOSP confirms purchase and presents order summary to the end user.
+
+1.2.9 Writing order/invoice concurrently
+BOSP writes customer’s selected order to the client order file and invoice to the employee invoice file concurrently.
+
+1.3.0 Inventory Confirmation and Decrease (NOT PERFORMED)
+As order is processed by the end user, BOSP accesses the inventory file and checks to see if there is enough product.
+If there is, then purchased products’ number decreases in the inventory file.
+
+1.3.1  Writing to SQL Database
+BOSP writes new account information, purchase information, and product information to the SQL database.
+
+1.3.2 Creating query from SQL Database
+BOSP creates customer query, customer/purchase query, and product query.
+
+
+2.0: CLASS MODEL, USE CASE AND SEQUENCE DIAGRAM
+
+https://docs.google.com/spreadsheets/d/19ebOHP6zntcXP9BQ5SePFCbD2OxxYTY516GqXqrX2qU/edit#gid=0
+
